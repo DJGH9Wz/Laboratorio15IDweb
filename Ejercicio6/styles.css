@@ -1,0 +1,9 @@
+.oculto{
+    visibility: hidden;
+}
+
+.resaltado{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
