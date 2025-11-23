@@ -2,7 +2,7 @@ const listados = document.getElementsByTagName("li");
 const ocultos = document.querySelectorAll(".oculto");
 const boton = document.getElementById("btn1");
 
-boton.addEventListener("click", (e) => {
+boton.addEventListener("click", () => {
   for (let li of ocultos) {
     li.classList.remove("oculto");
   }
